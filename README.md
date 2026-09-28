@@ -1,14 +1,14 @@
 # Explaining to ADHD / Menerangkan Kepada ADHD
 
-Hermes Agent skill that shapes every reply for a reader with ADHD — and after every coding task, ends the reply with one short teacher-style lesson in simple, plain English.
+Hermes Agent skill that shapes every reply for a reader with ADHD — and ends every substantive reply (coding task or not) with one short teacher-style lesson in simple, plain English. Always-on: status, handoff, and research replies get the lesson too.
 
-Kemahiran Hermes yang membentuk setiap balasan untuk pembaca ADHD — dan selepas setiap tugasan pengkodan, menutup balasan dengan satu pelajaran ringkas bergaya guru dalam Bahasa Inggeris yang mudah.
+Kemahiran Hermes yang membentuk setiap balasan untuk pembaca ADHD — dan menutup setiap balasan penting (tugasan pengkodan atau tidak) dengan satu pelajaran ringkas bergaya guru dalam Bahasa Inggeris yang mudah. Sentiasa aktif: balasan status, serahan, dan penyelidikan turut mendapat pelajaran.
 
 ## The skill
 
 | English | Malay | File | What it does |
 |---|---|---|---|
-| **explaining-to-adhd** | **menerangkan-kepada-adhd** | [`skills/explaining-to-adhd/SKILL.md`](skills/explaining-to-adhd/SKILL.md) | One skill, two jobs: shapes every reply (lead with the next action, number multi-step work, restate state across turns, cap lists to 5, no preamble/recap/closers) **and** appends a lesson block after each coding task: Problem → Change → Why it works → Proof → Next step → Takeaway. |
+| **explaining-to-adhd** | **menerangkan-kepada-adhd** | [`skills/explaining-to-adhd/SKILL.md`](skills/explaining-to-adhd/SKILL.md) | One skill, two jobs: shapes every reply (lead with the next action, number multi-step work, restate state across turns, cap lists to 5, plain English incl. Rule 11, no preamble/recap/closers) **and** appends an always-on lesson block to every substantive reply — coding, research, or status/handoff: Problem → Change → Why it works → Proof → Next step → Takeaway. |
 
 Off switches: "stop adhd mode" turns off the whole skill; "no terang" turns off only the lesson block.
 
