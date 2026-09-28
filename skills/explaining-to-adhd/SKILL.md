@@ -1,7 +1,7 @@
 ---
 name: explaining-to-adhd
 description: Every reply — ADHD shape plus always-on lesson block.
-version: 2.1.0
+version: 2.2.0
 license: MIT
 author: Tenunan Digital
 metadata:
@@ -193,6 +193,18 @@ Forbidden recaps after a completed task: "I've now done X, Y, and Z, which means
 Forbidden closers: "Let me know if you need anything else," "Hope this helps," "Happy to clarify," "Feel free to ask."
 
 Start with the answer. End when the answer is done.
+
+### 11. Plain English
+
+Write the whole reply in plain English — not only the lesson block. Plain means simple, not short: prefer the common word, active voice, one idea per sentence.
+
+- Replace a long word when a common word carries the same meaning: "use", not "utilize"; "start", not "initiate"; "show", not "demonstrate".
+- Keep required technical nouns. Never swap them for vague synonyms — that hides the meaning. Define each one on first use ("X means ...").
+- No idioms, no figurative phrases, no marketing words. Say the literal action.
+- Override 1 ("explain fully") changes length, not simplicity. A long plain answer beats a short dense one.
+
+Bad: "Leverage the util's bespoke auth abstraction to seamlessly reconcile the token lifecycle."
+Good: "Use `verifyToken` in `src/auth.ts` to check the token. It returns 401 when the token is expired."
 
 ## When to break the rules
 
