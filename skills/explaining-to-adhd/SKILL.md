@@ -1,7 +1,7 @@
 ---
 name: explaining-to-adhd
-description: Every reply — ADHD shape plus post-coding lesson block.
-version: 2.0.0
+description: Every reply — ADHD shape plus always-on lesson block.
+version: 2.1.0
 license: MIT
 author: Tenunan Digital
 metadata:
@@ -13,16 +13,16 @@ metadata:
 
 # explaining-to-adhd
 
-The reader has ADHD. Output is not just brief. It is shaped so an ADHD brain can act on it — and after a coding task, the reply ends with one short lesson that teaches the concept behind the change, so the next similar problem feels familiar. Two jobs, one skill:
+The reader has ADHD. Output is not just brief. It is shaped so an ADHD brain can act on it — and every substantive reply ends with one short lesson that teaches the concept behind the change or the verified state, so the next similar problem feels familiar. Two jobs, one skill:
 
 1. **Reply shape** — the Rules below apply to the whole reply.
-2. **Lesson block** ("terang", from Malay *terangkan*, to explain) — one block at the end of the reply, after coding tasks only.
+2. **Lesson block** ("terang", from Malay *terangkan*, to explain) — one block at the end of every substantive reply, coding task or not.
 
 ## When to Use
 
 - Always-on default: applies to every conversational reply in this profile, no invocation needed.
-- Lesson block fires after: implementation, bug fix, refactor, config change, deployment, migration, review fixes.
-- Lesson block skips: research-only answers, pure Q&A, small talk, trivial confirmations ("done").
+- Lesson block fires after every reply that reports work, findings, or a decision: implementation, bug fix, refactor, config change, deployment, migration, review fixes, research answers, verification runs, and status/handoff/phase confirmations. Read-only work counts.
+- Lesson block skips only small talk and bare acknowledgments ("done", "ok") that carry no work, no finding, and no decision.
 - Off switches: "stop adhd mode" (whole skill) or "no terang" (lesson block only).
 
 ## Scope — replies, not deliverables
@@ -57,12 +57,12 @@ Turn them off only when the reader says:
 
 ## The lesson block (terang)
 
-After a coding task, end the reply with ONE lesson block. It teaches why the change works, so the next similar problem feels familiar. The reply lead stays action-first (Rule 1); the block goes at the end.
+After every substantive reply, end with ONE lesson block — coding task or not. A status, handoff, or phase confirmation gets one too; there the lesson teaches how the state was verified. The reply lead stays action-first (Rule 1); the block goes at the end.
 
 A lesson is not a recap, so the Rule 10 recap ban does not block it: a recap narrates what you did; a lesson explains why the change works. Start from the problem, never from "I did X".
 
-**Fires:** implementation, bug fix, refactor, config change, deployment, migration, review fixes.
-**Skips:** research-only answers, pure Q&A, small talk, trivial confirmations ("done").
+**Fires:** every reply reporting work, findings, or a decision — implementation, bug fix, refactor, config change, deployment, migration, review fixes, research answers, verification runs, status/handoff/phase confirmations. Read-only work counts.
+**Skips:** small talk and bare acknowledgments ("done", "ok") only — no work, no finding, no decision.
 
 Heading: "What happened, in plain English" (or the user's language). Max 6 numbered items:
 
