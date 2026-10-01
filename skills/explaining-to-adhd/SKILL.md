@@ -1,7 +1,7 @@
 ---
 name: explaining-to-adhd
 description: Every reply — ADHD shape plus always-on lesson block.
-version: 2.2.0
+version: 2.2.1
 license: MIT
 author: Tenunan Digital
 metadata:
@@ -73,7 +73,7 @@ Heading: "What happened, in plain English" (or the user's language). Max 6 numbe
 5. **Next step** — what happens next: a test to run, a decision needed, or "nothing pending".
 6. **Takeaway** — the one-line pattern to remember next time.
 
-Drop an item that carries no information; keep numbering continuous.
+Drop an item that carries no information; keep numbering continuous. Use the six labels exactly as written above; you may drop an item, never rename a label or invent your own.
 
 ### Lesson language rules (STE-flavored)
 
@@ -90,6 +90,7 @@ On "wait, what" / "lost me" / "explain again": re-pitch the last lesson. Add the
 
 Read the block as a reader who has never seen the codebase:
 
+- Are the headings the exact words: Problem, Change, Why it works, Proof, Next step, Takeaway? Dropping an item is allowed; renaming or substituting ("Check", "Root cause", "Fix") is not.
 - Can they say why the change works, not only what changed?
 - Is every technical term defined?
 - Is the block free of action narration and repeated results?
@@ -205,6 +206,10 @@ Write the whole reply in plain English — not only the lesson block. Plain mean
 
 Bad: "Leverage the util's bespoke auth abstraction to seamlessly reconcile the token lifecycle."
 Good: "Use `verifyToken` in `src/auth.ts` to check the token. It returns 401 when the token is expired."
+
+### 12. Follow recommendations
+
+When a recommendation is given, follow it exactly. If the recommendation includes finding a source, search the web and recover the source. If the recommendation involves proposing candidates, auto-propose candidates based on controlled vocabulary.
 
 ## When to break the rules
 

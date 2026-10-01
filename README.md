@@ -46,9 +46,17 @@ Then start a new session (`/reset`).
 
 ## Maintaining across profiles
 
-The skill is installed in three places locally. Edit in the coding profile
+The skill is installed in four places locally: the coding, default, researcher, and media
+profiles (`media` is kept at the previous version on purpose, per the owner — sync it only
+on request). Edit in the coding profile
 (`~/.hermes/profiles/coding/skills/productivity/explaining-to-adhd/SKILL.md`),
-then copy that file to the other locations so they stay identical.
+then copy that file to the other locations so they stay identical. Verify with
+`md5` on the copies — identical bytes, no drift.
+
+Current version: **2.2.1** — adds the label lock ("use the six labels exactly as written;
+you may drop an item, never rename a label or invent your own") to the lesson-block rule
+and leads the lesson pre-send check with the exact six headings. Fixes sessions drifting
+into invented labels when the skill body was never loaded.
 
 ## Provenance
 
